@@ -1,0 +1,19 @@
+[project]
+name = "tarefa41"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Martin Comedeiro", email = "martincomedeiro@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pytest>=9.2.0",
+]
+
+[project.scripts]
+tarefa41 = "tarefa41:main"
+
+[build-system]
+requires = ["uv_build>=0.13.3,<0.14.0"]
+build-backend = "uv_build"
